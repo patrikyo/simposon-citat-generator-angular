@@ -1,0 +1,10 @@
+<div id ="wrapper">
+	<header>
+	</header>	
+	<div id="karaktaer-galleri">
+		<ul>
+			<app-karaktaerer (aktivKaraktaer) = "aktivKaraktaer($event)" (aktivCitat) = "aktivCitat($event)"> </app-karaktaerer>
+		</ul>
+		<app-tv [valdKaraktaer] = "valdKaraktaer" [citat] = "citat"> </app-tv>
+	</div>	
+</div>	
